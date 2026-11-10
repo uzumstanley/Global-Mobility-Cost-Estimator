@@ -1,0 +1,48 @@
+/* Minimal styling for estimator */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+header, footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+nav.tabs {
+    display: flex;
+    justify-content: center;
+    background: #e0e0e0;
+    padding: 0.5rem;
+}
+nav.tabs button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    background: #c0c0c0;
+}
+nav.tabs button:hover {
+    background: #a0a0a0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+.cost-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.cost-table th, .cost-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: right;
+}
+.cost-table th {
+    background: #eeeeee;
+}
+

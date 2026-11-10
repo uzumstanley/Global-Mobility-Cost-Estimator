@@ -1,0 +1,26 @@
+{% load static %}
+<div class="grid-container">
+  <div class="grid-left">
+    <form method="post" novalidate>
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">Calculate Cost Estimate</button>
+    </form>
+  </div>
+  <div class="grid-right">
+    {% if result %}
+      <h2>Cost Estimate</h2>
+      <table class="cost-table">
+        <tr><th>Year</th><th>Total Employer Cost (£)</th><th>Multiple of Home Pay</th></tr>
+        <tr><td>Year 1</td><td>{{ result.summary.cost_y1 }}</td><td>{{ result.summary.mult_y1 }}×</td></tr>
+        <tr><td>Year 2</td><td>{{ result.summary.cost_y2 }}</td><td>{{ result.summary.mult_y2 }}×</td></tr>
+        <tr><td>Total (2 yr)</td><td>{{ result.summary.total_cost }}</td><td>{{ result.summary.mult_total }}×</td></tr>
+      </table>
+      <details>
+        <summary>Iteration trace (Year 1)</summary>
+        <pre>{{ result.traces.y1|safe }}</pre>
+      </details>
+    {% endif %}
+  </div>
+</div>
+
