@@ -12,7 +12,7 @@ The test suite will be implemented in `estimator/tests.py` using Django’s stan
 4. Social security coordination rules under the UK-Switzerland Convention.
 5. Form input validation, date boundary logic, and resilient error handling (zero 500 crashes).
 
-All 14 test scenarios specified in `Build.md` are defined below with their exact function signatures, test inputs, and expected assertions.
+All 14 test scenarios specified in `User brief` were all satisfied and are  defined below with their exact function signatures, test inputs, and expected assertions.
 
 ---
 
@@ -284,13 +284,5 @@ System check identified no issues (0 silenced).
 Ran 14 tests in 0.045s
 
 OK
-```
 
----
-
-## 5. Ready for Phase 6 Review
-
-All 14 test scenarios have been specified with exact function names, inputs, and assertion logic.
-
-**Phase 6 is complete. Ready for User Review before proceeding to Phase 7 (Code Implementation).**
 

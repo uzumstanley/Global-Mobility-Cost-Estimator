@@ -234,11 +234,5 @@ Tab 3 provides full transparency into the tax, legal, and operational assumption
 | **Sponsorship Guidance** | UK visa sponsorship for employers | Home Office | [gov.uk/uk-visa-sponsorship-employers](https://www.gov.uk/uk-visa-sponsorship-employers) |
 | **Right to Work Checks** | Check a job applicant's right to work | Home Office | [gov.uk/check-job-applicant-right-to-work](https://www.gov.uk/check-job-applicant-right-to-work) |
 
----
 
-## 6. Ready for Phase 5 Review
-
-The front-end specification defines the wireframes, field list, explanatory help text, and the exact structure for all three tabs, satisfying all assessment requirements.
-
-**Phase 5 is complete. Ready for User Review before proceeding to Phase 6.**
 

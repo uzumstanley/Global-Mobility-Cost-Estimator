@@ -5,7 +5,7 @@
 
 ## 1. Module Overview & Responsibilities
 
-The backend is built around a lightweight, modular calculation engine located within the `estimator` app. Each module has a single, well-defined responsibility with humanized, readable Python code.
+The backend is built around a lightweight, modular calculation engine located within the `estimator` app. Each module has a single, well-defined responsibility , using readable Python code.
 
 | File | Purpose | Main Functions / Classes |
 | :--- | :--- | :--- |
@@ -469,11 +469,5 @@ def get_immigration_content() -> dict:
 | **Gross-Up Non-Convergence** | Capped loop in `gross_up.py` | Capped at 100 iterations, logs warning, returns best estimate. |
 | **HTTP 500 Prevention** | `views.estimator_view` | Validates `form.is_valid()` before any calculation; invalid data never touches the math engine. |
 
----
 
-## 4. Ready for Phase 4 Review
-
-The backend specification covers all required signatures, validation rules, math formulas, and error-handling safeguards. 
-
-**Phase 4 is complete. Ready for User Review before proceeding to Phase 5.**
 
