@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ## Running the Application
 
 ```bash
-# Apply database migrations (SQLite is used for the demo)( personal use but delete: ./venv/bin/python manage.py runserver)
+# Apply database migrations (SQLite is used for the demo)
 python manage.py migrate
 
 # Start the development server
