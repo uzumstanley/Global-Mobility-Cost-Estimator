@@ -16,7 +16,7 @@ A **full‑stack Django web app** that estimates the **total employer cost** of 
 ## Installation
 
 ```bash
-# 1️⃣ Clone the repository (you will do this yourself on a clean machine)
+# 1️⃣ Clone the repository 
 # git clone https://github.com/your‑username/global‑mobility‑cost‑estimator.git
 
 # 2️⃣ Create a virtual environment
