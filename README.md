@@ -13,10 +13,6 @@ A **full‑stack Django web app** that estimates the **total employer cost** of 
 2. **Immigration & Work Permits** – the work‑permit the employee needs, any business‑visit visa, passport requirements, company actions, and estimated processing times and costs.
 3. **Assumptions & Sources** – a concise list of the key assumptions used in the calculations and clickable links to the official source documents.
 
-The tool is built to fulfil the **assessment criteria** from `Assesment.md` (15 binary checks) and can be run on a clean machine with only the steps below.
-
----
-
 ## Installation
 
 ```bash
