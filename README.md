@@ -47,7 +47,7 @@ Open a browser at `http://127.0.0.1:8000/`.  The cost estimator loads with the t
 ## Tests
 
 ```bash
-# Run the Django test suite for the `estimator` app (personal use but delete: ./venv/bin/python manage.py test estimator)
+# Run the Django test suite for the `estimator` app 
 python manage.py test estimator
 ```
 All tests should pass (currently **14** tests).
