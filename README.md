@@ -123,8 +123,8 @@ A short (5‑10 min) walkthrough video will be added here once recorded:
 
 ## License
 
-MIT – feel free to fork and adapt for your own assignments.
+MIT – feel free to fork and adapt.
 
 ---
 
-*If you have any questions, open an issue or contact the author.*
+*If you have any questions, open an issue or contact the author : stanleyuzum@gmail.com.*
