@@ -5,7 +5,7 @@
 
 ## 1. Design Philosophy & User Experience
 
-The front-end design is clean, professional, intuitive, and uncluttered. It follows modern web design principles while adhering strictly to the candidate brief requirements:
+The front-end design is clean, professional, intuitive, and uncluttered. It follows modern web design principles while adhering strictly to the brief requirements:
 1. **Clarity at a Glance**: Clean card-based layout with high-contrast typography and clear visual hierarchy.
 2. **Help Text Throughout**: Informative inline explanations for complex concepts (hypothetical tax, gross-up, benefit classifications, exchange rates).
 3. **Tabbed Architecture**: Three dedicated tabs separating the **Cost Estimate**, **Immigration & Work Permits**, and **Assumptions & Sources**.

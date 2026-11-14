@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ## Running the Application
 
 ```bash
-# Apply database migrations (SQLite is used for the demo)
+# Apply database migrations (SQLite is used for the demo)( personal use but delete: ./venv/bin/python manage.py runserver)
 python manage.py migrate
 
 # Start the development server
@@ -51,7 +51,7 @@ Open a browser at `http://127.0.0.1:8000/`.  The cost estimator loads with the t
 ## Tests
 
 ```bash
-# Run the Django test suite for the `estimator` app
+# Run the Django test suite for the `estimator` app (personal use but delete: ./venv/bin/python manage.py test estimator)
 python manage.py test estimator
 ```
 All tests should pass (currently **14** tests).
@@ -65,9 +65,6 @@ All tests should pass (currently **14** tests).
 | Research of tax legislation & immigration rules | **Google Gemini**, **ChatGPT** | Locate official rates, multiplier tables, personal‑tax PDFs, and visa requirements.
 | None for code generation | – | All application code was written manually following the specification.
 
-If no AI was used for a particular step, write **None**.
-
----
 
 ## Loom video
 

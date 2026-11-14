@@ -391,5 +391,4 @@ Every research requirement set out in Section 1.1 through 1.10 of `Build.md` has
 * **Benefit Exemption**: £8,000 statutory relocation exemption correctly applied under s. 287 ITEPA 2003, leaving £2,000 of moving/temp housing as taxable BIK in Year 1, London housing as £36,000 BIK each year, and relocation allowance as £4,545.45 taxable cash in Year 1.
 * **Immigration**: Senior or Specialist Worker recommended; complete fee and obligation schedule established; ETA verified for business visits; no 6-month passport rule.
 
-**Phase 1 is complete. Ready for User Review before proceeding to Phase 2.**
 
