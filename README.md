@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ## Running the Application
 
 ```bash
-# Apply database migrations (SQLite is used for the demo)( personal use but delete: ./venv/bin/python manage.py runserver)
+# Apply database migrations (SQLite is used for the demo)
 python manage.py migrate
 
 # Start the development server
@@ -51,7 +51,7 @@ Open a browser at `http://127.0.0.1:8000/`.  The cost estimator loads with the t
 ## Tests
 
 ```bash
-# Run the Django test suite for the `estimator` app (personal use but delete: ./venv/bin/python manage.py test estimator)
+# Run the Django test suite for the `estimator` app 
 python manage.py test estimator
 ```
 All tests should pass (currently **14** tests).
