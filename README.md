@@ -68,11 +68,7 @@ All tests should pass (currently **14** tests).
 
 ## Loom video
 
-A short (5‑10 min) walkthrough video will be added here once recorded:
-
-```
-[Insert Loom video link]
-```
+Link: https://www.loom.com/share/340642431e914a0c9dabe540783e20b4
 
 ---
 
